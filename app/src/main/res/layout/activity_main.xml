@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/wallpaper_dois"
+    android:backgroundTint="#52000000"
+    android:backgroundTintMode="src_atop">
+
+    <ImageButton
+        android:id="@+id/bitao"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/baseline_density_medium_24"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/titu"
+        android:layout_width="76dp"
+        android:layout_height="59dp"
+        android:layout_gravity="top|center"
+        android:text="@string/fun_name"
+        android:textColor="#ffcc00" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="50dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/liz"
+                        style="@style/bota"
+                        android:background="@drawable/elizabeth_webber" />
+
+                    <ImageButton
+                        android:id="@+id/chris"
+                        style="@style/bota"
+                        android:background="@drawable/chris_cohen" />
+
+                    <ImageButton
+                        android:id="@+id/joui"
+                        style="@style/bota"
+                        android:background="@drawable/jui" />
+
+                    <ImageButton
+                        android:id="@+id/verissimo"
+                        style="@style/bota"
+                        android:background="@drawable/velhissimo" />
+
+                    <ImageButton
+                        android:id="@+id/gal"
+                        style="@style/bota"
+                        android:background="@drawable/gal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="130dp">
+
+                    <ImageButton
+                        android:id="@+id/thiago"
+                        style="@style/bota"
+                        android:background="@drawable/thiago_fritas" />
+
+                    <ImageButton
+                        android:id="@+id/kaiser"
+                        style="@style/bota"
+                        android:background="@drawable/kaiser_cohen" />
+
+                    <ImageButton
+                        android:id="@+id/tutu"
+                        style="@style/bota"
+                        android:background="@drawable/tutu" />
+
+                    <ImageButton
+                        android:id="@+id/agatha"
+                        style="@style/bota"
+                        android:background="@drawable/agathinha" />
+
+                    <ImageButton
+                        android:id="@+id/kian"
+                        style="@style/bota"
+                        android:background="@drawable/kian" />
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>

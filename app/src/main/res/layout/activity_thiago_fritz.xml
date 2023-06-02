@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Thiago_fritz"
+    android:background="@drawable/wallpaper">
+
+    <ImageView
+        android:layout_width="275dp"
+        android:layout_height="275dp"
+        android:background="@drawable/thiago_fritas"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="35dp"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:layout_width="342dp"
+        android:layout_height="221dp"
+        android:layout_gravity="top|center"
+        android:text="@string/fritz"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="321dp"
+        android:layout_height="221dp"
+        android:layout_gravity="bottom"
+        android:text="@string/manan"
+        android:textColor="#ffffff"/>
+
+
+</FrameLayout>
